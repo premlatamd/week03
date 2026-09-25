@@ -153,7 +153,7 @@ Although the gap becomes smaller in the 180+ day group, the overall pattern rema
 ## Alternative 3:
   Hotel type was used as an alternative confounding variable.
 
-## Alternative 4 (optional):
+## Alternative 4:
   Lead-time outliers were excluded using the IQR method.
 
   Across these alternative specifications, repeated guests consistently showed lower cancellation rates than new guests.
