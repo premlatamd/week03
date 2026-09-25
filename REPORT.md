@@ -1,4 +1,4 @@
-#**R1**
+# **R1**
 
 "Does the booking cancellation rate differ between repeated guests and first-time guests by enough to justify giving membership benefits 
 to regular customers and special offers to new customers?"
@@ -8,7 +8,7 @@ to regular customers and special offers to new customers?"
 Yes. Repeated guests have a cancellation rate of 7.64%, while new guests have a cancellation rate of 28.30%. This is a difference of about 
 20.66 percentage points, suggesting that customer retention and loyalty programs may help reduce cancellations and improve revenue stability.
 
-**R2  — The Data**
+# **R2  — The Data**
 
 *Data Source : Kaggle*
 The dataset used in this project is the Hotel Booking Demand Dataset, which is a publicly available dataset for research and educational purposes.
@@ -58,37 +58,27 @@ For this analysis, the primary grouping variable selected is:
 *Suspicious Values*
 
 1. Presence of negative "adr" value
-# One record contains a negative "adr" value (-6.38),
-# which is not realistic because room prices cannot be negative.
+  One record contains a negative "adr" value (-6.38),which is not realistic because room prices cannot be negative.
 
-# 2. Company column has a huge number of missing values
-# The company column contains 82,137 missing values,
-# indicating that most bookings were not associated with a company
-# or the information was not recorded.
+2. Company column has a huge number of missing values. The company column contains 82,137 missing values,
+   indicating that most bookings were not associated with a company or the information was not recorded.
 
-# 3. Presence of outliers in adr
-# The "adr" column shows possible outliers because the maximum value
-# (5400) is much higher than the average value (106.34).
-# This indicates the presence of extreme booking prices.
+3. Presence of outliers in adr .The "adr" column shows possible outliers because the maximum value
+   (5400) is much higher than the average value (106.34).This indicates the presence of extreme booking prices.
 
-#**R3**
-##*1. 95% Confidence Interval*
+# **R3**
+## *1. 95% Confidence Interval*
 
-# The computed 95% confidence interval for the difference
-# in cancellation rates is:
+   The computed 95% confidence interval for the difference in cancellation rates is:
+    [-0.2160 , -0.1971]
+    This indicates that the true difference in cancellation rates between repeated guests and new guests is likely
+    to lie between -21.60% and -19.71%.
 
-# [-0.2160 , -0.1971]
+## *Absolute and Relative Difference*
 
-# This indicates that the true difference in cancellation
-# rates between repeated guests and new guests is likely
-# to lie between -21.60% and -19.71%.
+  Absolute Difference = -0.2065
 
-##*Absolute and Relative Difference*
-
-# Absolute Difference = -0.2065
-
-# The negative sign indicates that repeated guests have
-# a lower cancellation rate than new guests.
+  ## The negative sign indicates that repeated guests have a lower cancellation rate than new guests.
 
 # Relative Difference:
 # The cancellation rate of repeated guests is lower
