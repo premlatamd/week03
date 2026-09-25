@@ -1,4 +1,4 @@
-**R1**
+#**R1**
 
 "Does the booking cancellation rate differ between repeated guests and first-time guests by enough to justify giving membership benefits 
 to regular customers and special offers to new customers?"
@@ -56,7 +56,8 @@ For this analysis, the primary grouping variable selected is:
 - No duplicate records were found after data cleaning.
 
 *Suspicious Values*
-# 1. Presence of negative "adr" value
+
+1. Presence of negative "adr" value
 # One record contains a negative "adr" value (-6.38),
 # which is not realistic because room prices cannot be negative.
 
