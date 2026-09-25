@@ -1,4 +1,4 @@
-#**R1**
+#**R1**#
 
 "Does the booking cancellation rate differ between repeated guests and first-time guests by enough to justify giving membership benefits 
 to regular customers and special offers to new customers?"
