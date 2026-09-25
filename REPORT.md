@@ -1,8 +1,10 @@
 #**R1**
+
 "Does the booking cancellation rate differ between repeated guests and first-time guests by enough to justify giving membership benefits 
 to regular customers and special offers to new customers?"
 
 ##*Answer*
+
 Yes. Repeated guests have a cancellation rate of 7.64%, while new guests have a cancellation rate of 28.30%. This is a difference of about 
 20.66 percentage points, suggesting that customer retention and loyalty programs may help reduce cancellations and improve revenue stability.
 
@@ -12,9 +14,11 @@ Yes. Repeated guests have a cancellation rate of 7.64%, while new guests have a 
 The dataset used in this project is the Hotel Booking Demand Dataset, which is a publicly available dataset for research and educational purposes.
 
 ### Dataset Size
+
 The dataset contains 87,396 rows and 32 columns after removing duplicate records.
 
 ### What One Row Represents
+
 Each row represents one hotel booking made by a customer.
 
 ### Potential Grouping Variables
@@ -43,6 +47,7 @@ For this analysis, the primary grouping variable selected is:
   - 1 = Booking Cancelled
 
 ### Quality Audit
+
 - The `children` column contains 4 missing values.
 - The `country` column contains 452 missing values.
 - The `agent` column contains 12,193 missing values.
